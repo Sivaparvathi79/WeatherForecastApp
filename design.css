@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://s2.best-wallpaper.net/wallpaper/2560x1600/1810/Beautiful-winter-snow-trees-river-moon-dusk_2560x1600.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.container {
+    text-align: center;
+    
+}
+.weather-card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 450px;
+}
+.weather-card:hover {
+    transform: scale(1.05);
+}
+#city-input {
+    padding: 15px;
+    margin: 10px 0;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#city-input:focus {
+    outline: none;
+    border-color: white;
+}
+#city-input::placeholder {
+    color: #aaa;
+}
+#city-input-btn {
+    padding: 10px;
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#city-input-btn:hover {
+    background-color: #1565C0;
+}
+#navigateButton:focus {
+    outline: none;
+    border-color: #1565C0;
+}
+#navigateButton {
+    padding: 10px;
+    background-color: #1565C0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#navigateButton:hover {
+    background-color: #1565C0;
+}
+#weather-info {
+    display: none;
+}
+#temperature {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 8px 0;
+	color: brown;
+}
+#description {
+    font-size: 18px;
+    margin-bottom: 10px;
+	color: red;
+}
+#wind-speed {
+    font-size: 16px;
+    color: purple;
+}
+#date {
+    font-size: 14px;
+    color: green;
+}
+.container1 {
+    background-color: lightblue;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+
+}
+.page2 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://c.wallhere.com/photos/e2/5d/road_ice_snow_winter_trees-1282569.jpg!d');
+    background-size: cover;
+	background-position: center;
+}
